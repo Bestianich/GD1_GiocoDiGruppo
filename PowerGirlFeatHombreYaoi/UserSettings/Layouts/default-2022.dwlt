@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 92
+  controlID: 50
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 41
+  controlID: 51
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 42
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/AssTesting/Assets/ModularHousePack1/Art/Textures
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/AssTesting/Assets/ModularHousePack1/Art/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\UNITY_PROJECTS\GD1_GiocoDiGruppo\PowerGirlFeatHombreYaoi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 84c20100
-    m_LastClickedID: 115332
-    m_ExpandedIDs: 0000000084c2010000ca9a3b
+    scrollPos: {x: 0, y: 7.8000183}
+    m_SelectedIDs: fec50100
+    m_LastClickedID: 116222
+    m_ExpandedIDs: 0000000084c201006ec40100dac50100e2c50100e8c5010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300005261000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 28fbffff
+      m_SelectedIDs: 3e50fdff
+      m_LastClickedID: -176066
+      m_ExpandedIDs: bc54fdff5e22ffffd025ffffee25fffff225ffff0627ffff6227ffffbe27ffff1628ffff962cffffc02cffffea2cffff162dffff402dffff962dffff122effffe42fffff2a30ffff3231ffffc231ffff3432ffff5a32ffff6c33ffffaa33fffff233ffff0a34ffff3a34ffff9435ffff5838ffff7038ffff8838ffffa038ffffb838ffffe838ffff7839ffff9039ffff6c3affff723affff28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: DownWeaponPosition
@@ -809,9 +809,9 @@ MonoBehaviour:
       floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -244.79999, y: -140}
+      snapOffset: {x: 687.2, y: 288.8}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
       index: 0
       layout: 4
@@ -880,9 +880,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.5310748, y: 4.749456, z: -41.787712}
+    m_Target: {x: -5.749998, y: 2.2899983, z: -17.499998}
     speed: 2
-    m_Value: {x: 1.5310748, y: 4.749456, z: -41.787712}
+    m_Value: {x: -5.750015, y: 2.2899935, z: -17.500002}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -928,13 +928,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.12653309, y: -0.6899708, z: 0.124181755, w: -0.7019742}
+    m_Target: {x: 0.0019935959, y: 0.9974654, z: -0.06655752, w: 0.037798177}
     speed: 2
-    m_Value: {x: -0.1263676, y: -0.6907231, z: 0.1243174, w: -0.7010549}
+    m_Value: {x: 0.002119332, y: 0.99694014, z: -0.06772484, w: 0.038976997}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 12.165166
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 12.165117
   m_Ortho:
     m_Target: 0
     speed: 2
