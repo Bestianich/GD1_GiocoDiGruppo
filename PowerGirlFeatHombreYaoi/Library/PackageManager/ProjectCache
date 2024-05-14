@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638512738611400244
-    m_Hash: 1869909109
+      ticks: 638512887395449698
+    m_Hash: 3647570036
   m_LockFileStatus:
     m_FilePath: C:/UNITY_PROJECTS/GD1_GiocoDiGruppo/PowerGirlFeatHombreYaoi/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638512738768043742
-    m_Hash: 3347447087
+      ticks: 638512887395449698
+    m_Hash: 1328868965
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
