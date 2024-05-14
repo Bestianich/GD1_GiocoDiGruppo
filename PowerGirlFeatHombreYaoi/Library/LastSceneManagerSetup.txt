@@ -1,9 +1,1 @@
-<<<<<<< HEAD
 sceneSetups: []
-=======
-sceneSetups:
-- path: Assets/ScenaCompleta.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
->>>>>>> Testing
