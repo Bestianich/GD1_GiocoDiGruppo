@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AssTesting/Assets/ModularHousePack1/Scenes/ExampleHouses.unity
+- path: Assets/ScenaCompleta.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
