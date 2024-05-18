@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 236.8
     height: 513.6
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 375.19995
     height: 722.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -411,23 +411,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ee2dfcff
-      m_LastClickedID: -250386
-      m_ExpandedIDs: d21dfbff6c29fbffd819fcff341afcffec1afcff481bfcff9c1bfcffa01bfcffa022fcffbc24fcff2627fcff2a27fcff262dfcffe42dfcffe82dfcffec2dfcffee2dfcff0c53fcffa260fcff9073fcff2687fcff9092fcff7aa8fcffdeaafcff8aadfcff72c1fcff3accfcffcccefcffcecefcff8895feff083e02007e410200e241020088470200
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 5231feffbc31feff3034feff6234feff7234feff28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Interior_Door_Wall
-        m_OriginalName: Interior_Door_Wall
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -255088
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -832,9 +832,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.022093, y: 1.9832976, z: -11.294518}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -6.022093, y: 1.9832976, z: -11.294518}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -880,13 +880,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.12961657, y: -0.19584805, z: 0.026122933, w: 0.9716894}
+    m_Target: {x: 0.24990307, y: 0.015405057, z: -0.0039773732, w: 0.9681522}
     speed: 2
-    m_Value: {x: 0.1296153, y: -0.19584614, z: 0.026122678, w: 0.9716799}
+    m_Value: {x: 0.24990015, y: 0.015404877, z: -0.0039773267, w: 0.9681409}
   m_Size:
-    m_Target: 1.7684737
+    m_Target: 10
     speed: 2
-    m_Value: 1.7684737
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -956,7 +956,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/FPS/Scripts/Gameplay
+    - Assets/Scenes/TestingProgrammazione
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -964,16 +964,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/FPS/Scripts/Gameplay
+  - Assets/Scenes/TestingProgrammazione
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\david\Documents\GitHub\GD1_GiocoDiGruppo\PowerGirlFeatHombreYaoi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 327.8}
-    m_SelectedIDs: d6300000
-    m_LastClickedID: 12502
-    m_ExpandedIDs: 00000000a2300000aa300000ae300000ba300000c2300000ce300000da300000de300000ee300000f6300000ea1f020000ca9a3b
+    scrollPos: {x: 0, y: 459.8}
+    m_SelectedIDs: 5ece0100
+    m_LastClickedID: 118366
+    m_ExpandedIDs: 0000000028cc01002acc01002ccc01002ecc010030cc010032cc010034cc010036cc010038cc01003acc01003ccc01005ace010060ce010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1001,7 +1001,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aa300000ba300000ee300000f6300000ea1f0200
+    m_ExpandedIDs: 0000000028cc01002acc01002ccc01002ecc010030cc010032cc010034cc010036cc010038cc01003acc01003ccc0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
