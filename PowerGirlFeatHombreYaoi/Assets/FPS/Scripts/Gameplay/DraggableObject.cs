@@ -19,7 +19,7 @@ public class DraggableObject : MonoBehaviour, IDragHandler, IBeginDragHandler, I
     // Start is called before the first frame update
     void Start()
     {
-        controller = GetComponentInParent<Enigma7Controller>();
+        controller = FindObjectOfType<Enigma7Controller>();
     }
 
     // Update is called once per frame
