@@ -17,6 +17,7 @@ public class LasteManager : MonoBehaviour
     }
     // Start is called before the first frame update
   void OnMouseDown()
+
   {
     if(Input.GetMouseButtonDown(0))
     {

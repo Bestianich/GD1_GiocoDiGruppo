@@ -9,6 +9,7 @@ public class InteractableObj : MonoBehaviour , IInteractable
 {
     //public bool zoom;
     public bool door;
+    public bool pickup;
     public Camera cameraZoom;
     public Canvas canvas; 
     public GameObject Player;   
@@ -27,6 +28,8 @@ public class InteractableObj : MonoBehaviour , IInteractable
             cameraZoom.gameObject.SetActive(true);
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+        } else if(pickup){
+            Player.GetComponent<Inventario>().InsertCubo(this.gameObject);
         }
     }
     // Start is called before the first frame update
