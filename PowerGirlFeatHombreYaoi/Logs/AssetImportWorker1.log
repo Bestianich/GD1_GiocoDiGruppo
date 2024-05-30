@@ -1,0 +1,289 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'it' Physical Memory: 7968 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/UNITY_PROJECTS/GD1_GiocoDiGruppo/PowerGirlFeatHombreYaoi
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55467
+Successfully changed project path to: C:/UNITY_PROJECTS/GD1_GiocoDiGruppo/PowerGirlFeatHombreYaoi
+C:/UNITY_PROJECTS/GD1_GiocoDiGruppo/PowerGirlFeatHombreYaoi
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20724] Host "[IP] 192.168.178.56 [Port] 0 [Flags] 2 [Guid] 3087890855 [EditorId] 3087890855 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-C4HSBGVU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20724] Host "[IP] 192.168.178.56 [Port] 0 [Flags] 2 [Guid] 3087890855 [EditorId] 3087890855 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-C4HSBGVU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 20.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UNITY_PROJECTS/GD1_GiocoDiGruppo/PowerGirlFeatHombreYaoi/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.4626
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018569 seconds.
+- Loaded All Assemblies, in  0.747 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.530 seconds
+Domain Reload Profiling: 1273ms
+	BeginReloadAssembly (305ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (530ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (424ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.222 seconds
+Refreshing native plugins compatible for Editor in 16.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.439 seconds
+Domain Reload Profiling: 3652ms
+	BeginReloadAssembly (312ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (1741ms)
+		LoadAssemblies (1103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (833ms)
+			TypeCache.Refresh (722ms)
+				TypeCache.ScanAssembly (664ms)
+			ScanForSourceGeneratedMonoScriptInfo (77ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1113ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (239ms)
+			ProcessInitializeOnLoadAttributes (719ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Failed to load shader (instanceID 12274, GUID c8b6a681c7b4e2e4785ffab093907f9e)
+Failed to load shader (instanceID 12276, GUID 911130a939bf84843bcc4211c327f579)
+Failed to load shader (instanceID 12278, GUID c84d57d423a2042eb92da86f9fa670a3)
+Failed to load shader (instanceID 12280, GUID 0f4122b9a743b744abe2fb6a0a88868b)
+Failed to load shader (instanceID 12282, GUID 0a7e590f3cf1d4ee8a8fab5b6eff09ef)
+Failed to load shader (instanceID 12284, GUID 21322c8b137c66e49b86085d3c8161f6)
+Failed to load shader (instanceID 12286, GUID 4293210a3280c4283b9872316017f1f9)
+Failed to load shader (instanceID 12288, GUID d6dae50ee9e1bfa4db75f19f99355220)
+Failed to load shader (instanceID 12290, GUID ec9fec698a3456d4fb18cf8bacb7a2bc)
+Failed to load shader (instanceID 12292, GUID 573620ae32aec764abd4d728906d2587)
+Failed to load shader (instanceID 12294, GUID 1ccecd9b89b8a4f14bfb64f29ddfcc81)
+Failed to load shader (instanceID 12296, GUID 8ca8b34aa013842f3b399b6961e7dc3b)
+Failed to load shader (instanceID 12298, GUID 74b1585886a85614aa34e2c8e303c77a)
+Failed to load shader (instanceID 12300, GUID e8ee25143a34b8c4388709ea947055d1)
+Failed to load shader (instanceID 12302, GUID 04c410c9937594faa893a11dceb85f7e)
+Failed to load shader (instanceID 12304, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 12306, GUID 4431b1f1f743fbf4eb310a967890cbea)
+Failed to load shader (instanceID 12308, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 12310, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 12312, GUID e6e9a19c3678ded42a3bc431ebef7dbd)
+Failed to load shader (instanceID 12314, GUID d6e5744ac426949ff8c0f02936689d4c)
+Failed to load shader (instanceID 12316, GUID d104b2fc1ca6445babb8e90b0758136b)
+Failed to load shader (instanceID 12318, GUID 24f9f312f97bd48dba1a728d58c89842)
+Failed to load shader (instanceID 12320, GUID e7857e9d0c934dc4f83f270f8447b006)
+Failed to load shader (instanceID 12322, GUID ee7e4c9a5f6364b688a332c67fc32cca)
+Failed to load shader (instanceID 12324, GUID de02b375720b5c445afe83cd483bedf3)
+Failed to load shader (instanceID 12326, GUID 33cb4e8ff0c1d43ac8ec40692656c7ed)
+Failed to load shader (instanceID 12328, GUID e8b802ac01d87144b91f12f40c1f2659)
+Failed to load shader (instanceID 12330, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 12332, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 12334, GUID ce09d4a80b88c5a4eb9768fab4f1ee00)
+Failed to load shader (instanceID 12336, GUID 13c02b14c4d048fa9653293d54f6e0e1)
+Failed to load shader (instanceID 12338, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 12340, GUID c7d04ca57e5449d49ad9cee1c604bc26)
+Failed to load shader (instanceID 12342, GUID 0ca6dca7396eb48e5849247ffd444914)
+Failed to load shader (instanceID 12344, GUID cf852408f2e174538bcd9b7fda1c5ae7)
+Failed to load shader (instanceID 12346, GUID f056d8bd2a1c7e44e9729144b4c70395)
+Failed to load shader (instanceID 12348, GUID 0406db5a14f94604a8c57ccfbc9f3b46)
+Failed to load shader (instanceID 12350, GUID 0849e84e3d62649e8882e9d6f056a017)
+Failed to load shader (instanceID 12352, GUID 5ec81c81908db34429b4f6ddecadd3bd)
+Failed to load shader (instanceID 12354, GUID 6f37d9e45fbae41b386f76d3bfefec4a)
+Failed to load shader (instanceID 12356, GUID c17132b1f77d20942aa75f8429c0f8bc)
+Failed to load shader (instanceID 12358, GUID c56b7e0d4c7cb484e959caeeedae9bbf)
+Failed to load shader (instanceID 12360, GUID 7b3ede40266cd49a395def176e1bc486)
+Failed to load shader (instanceID 12362, GUID a15b78cf8ca26ca4fb2090293153c62c)
+Failed to load shader (instanceID 12364, GUID c26db15b9a2ed4b2ebefefd26ce85ae1)
+Failed to load shader (instanceID 12366, GUID e507fdfead5ca47e8b9a768b51c291a1)
+Failed to load shader (instanceID 12368, GUID 933532a4fcc9baf4fa0491de14d08ed7)
+Failed to load shader (instanceID 12370, GUID 5f1864addb451f54bae8c86d230f736e)
+Failed to load shader (instanceID 12372, GUID 8516d7a69675844a7a0b7095af7c46af)
+Failed to load shader (instanceID 12374, GUID 5e7134d6e63e0bc47a1dd2669cedb379)
+Failed to load shader (instanceID 12376, GUID d5a307c014552314b9f560906d708772)
+Failed to load shader (instanceID 12378, GUID 8fbe92a9edfe6074e841d6dd1509bc59)
+Failed to load shader (instanceID 12380, GUID 4b9f3440d48c2f04c9c388365e070864)
+Failed to load shader (instanceID 12382, GUID 65df88701913c224d95fc554db28381a)
+Failed to load shader (instanceID 12384, GUID 650dd9526735d5b46b79224bc6e94025)
+Failed to load shader (instanceID 12386, GUID 2aed67ad60045d54ba3a00c91e2d2631)
+Failed to load shader (instanceID 12388, GUID 1121bb4e615ca3c48b214e79e841e823)
+Failed to load shader (instanceID 12390, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 12392, GUID e9155b26e1bc55942a41e518703fe304)
+Failed to load shader (instanceID 12394, GUID 4300ae919783d4fa38001d745fbdecc1)
+Failed to load shader (instanceID 12396, GUID f6783ab646d374f94b199774402a5144)
+Failed to load shader (instanceID 12398, GUID 19dfbb09098c9584a83c956fbd6c5d79)
+Failed to load shader (instanceID 12400, GUID 35e778fba8b2b49a198d8d7cfced67eb)
+Failed to load shader (instanceID 12402, GUID cfa7edf01005f4e338d973cea2f6eab3)
+Failed to load shader (instanceID 12404, GUID 8d2bb70cbf9db8d4da26e15b26e74248)
+Failed to load shader (instanceID 12406, GUID a07688e921e974338945464731e069ce)
+Failed to load shader (instanceID 12408, GUID 86212504c7e9f468db2300dc5932dc17)
+Failed to load shader (instanceID 12410, GUID 69c1f799e772cb6438f56c23efccb782)
+Failed to load shader (instanceID 12412, GUID 1fd883d610b2f42a98fc7abaf6809430)
+Failed to load shader (instanceID 12414, GUID 93446b5c5339d4f00b85c159e1159b7c)
+Failed to load shader (instanceID 12416, GUID 5fd9a8feb75a4b5894c241777f519d4e)
+Failed to load shader (instanceID 12418, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 12420, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 12422, GUID 209f4c3496c1b46a3a2f9f0f27be788f)
+Failed to load shader (instanceID 12424, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 12426, GUID e35a31e1679aeff489e202f5cc4853d5)
+Failed to load shader (instanceID 12428, GUID 29868e73b638e48ca99a19ea58c48d90)
+Failed to load shader (instanceID 12430, GUID 04b5dda5f278e4f56a9dbda64d90bb95)
+Failed to load shader (instanceID 12432, GUID 6cda457ac28612740adb23da5d39ea92)
+Failed to load shader (instanceID 12434, GUID e39bd598ce13f44ba8af997d3e42cd18)
+Failed to load shader (instanceID 12436, GUID 131f1b93a4ebd459ba87b6bad055fb33)
+Failed to load shader (instanceID 12438, GUID b7839dad95683814aa64166edc107ae2)
+Failed to load shader (instanceID 12440, GUID d79e1c784eaf80c4585c0be7391f757a)
+Failed to load shader (instanceID 12442, GUID 44fc62292b65ab04eabcf310e799ccf6)
+Failed to load shader (instanceID 12444, GUID e8c3a1662a88140ae84d69a3a4cfdbaa)
+Failed to load shader (instanceID 12446, GUID 562b7ae4f629f144aa97780546fce7c6)
+Failed to load shader (instanceID 12448, GUID e260cfa7296ee7642b167f1eb5be5023)
+Failed to load shader (instanceID 12450, GUID 1edcd131364091c46a17cbff0b1de97a)
+Failed to load shader (instanceID 12452, GUID 95e15a77195eb574ab82aaac18b1c796)
+Failed to load shader (instanceID 12454, GUID 77774d9009bb81447b048c907d4c6273)
+Failed to load shader (instanceID 12456, GUID 99134b1f0c27d54469a840832a28fadf)
+Failed to load shader (instanceID 12458, GUID 7f888aff2ac86494babad1c2c5daeee2)
+Failed to load shader (instanceID 12460, GUID 63eaba0ebfb82cc43bde059b4a8c65f6)
+Failed to load shader (instanceID 12462, GUID 60e10855641b4d84da68ec72e6f6eeb8)
+Failed to load shader (instanceID 12464, GUID 0f854b35a0cf61a429bd5dcfea30eddd)
+Failed to load shader (instanceID 12466, GUID c49e63ed1bbcb334780a3bd19dfed403)
+Failed to load shader (instanceID 12468, GUID a89bee29cffa951418fc1e2da94d1959)
+Failed to load shader (instanceID 12470, GUID 7e60080c8cd24a2468cb08b4bfee5606)
+Failed to load shader (instanceID 12472, GUID 25b8a80cb03994c769145599929a5e97)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 12.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (120.7 KB). Loaded Objects now: 3620.
+Memory consumption went from 139.9 MB to 139.8 MB.
+Total: 12.499300 ms (FindLiveObjects: 0.501400 ms CreateObjectMapping: 0.456300 ms MarkObjects: 8.532000 ms  DeleteObjects: 3.006800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 139448.068504 seconds.
+  path: Assets/Materials/Tastierino.png
+  artifactKey: Guid(14c0f3ee6895a32489d17821bd93e30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tastierino.png using Guid(14c0f3ee6895a32489d17821bd93e30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6397f0f7a12e554fa03e4bb292747f0d') in 0.155365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
