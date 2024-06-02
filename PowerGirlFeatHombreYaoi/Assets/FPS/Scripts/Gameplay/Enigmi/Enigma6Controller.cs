@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnigmaManager : MonoBehaviour
+public class Enigma6Controller : MonoBehaviour
 {
     private List<GameObject> _cubes = new();
 
@@ -19,5 +19,4 @@ public class EnigmaManager : MonoBehaviour
         cube.transform.position = cubesPositions[positionsIndex].position;
         positionsIndex++;
     }
-
 }
