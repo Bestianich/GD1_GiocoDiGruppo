@@ -246,6 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: 0
+  pickup: 0
   cameraZoom: {fileID: 3195178175634979550}
   canvas: {fileID: 0}
   Player: {fileID: 0}
@@ -300,7 +301,7 @@ Transform:
   m_GameObject: {fileID: 2434425090172751233}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.207, z: 0}
+  m_LocalPosition: {x: 0, y: -0.209, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -448,7 +449,7 @@ Transform:
   m_GameObject: {fileID: 2928169359507713636}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.58, y: 0.6, z: 4.5044436}
+  m_LocalPosition: {x: 5.58, y: 0.557, z: 4.5044436}
   m_LocalScale: {x: 2.2222223, y: 2.2222223, z: 2.2222223}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -484,7 +485,7 @@ Transform:
   m_GameObject: {fileID: 4321860166453391602}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.187, z: -0.04400009}
+  m_LocalPosition: {x: 0, y: -0.198, z: -0.04400009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -762,6 +763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: 0
+  pickup: 0
   cameraZoom: {fileID: 3195178175634979550}
   canvas: {fileID: 0}
   Player: {fileID: 0}
@@ -824,13 +826,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6130251371073307767}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: -0.5, z: 0.5, w: -0.5}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalRotation: {x: -0.12442178, y: -0.69707614, z: 0.124074705, w: -0.6951328}
+  m_LocalPosition: {x: -1.302, y: 1.596, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2422601221326300247}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 159.76, y: -89.83002, z: 180.059}
 --- !u!20 &3195178175634979550
 Camera:
   m_ObjectHideFlags: 0
@@ -864,7 +866,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 96
+  field of view: 98
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -935,7 +937,7 @@ Transform:
   m_GameObject: {fileID: 6492946645166875727}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.007000208, y: -0.199, z: -0.06599979}
+  m_LocalPosition: {x: -0.007000208, y: -0.203, z: -0.06599979}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
