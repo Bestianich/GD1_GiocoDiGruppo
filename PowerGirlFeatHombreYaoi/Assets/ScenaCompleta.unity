@@ -70097,7 +70097,6 @@ GameObject:
   - component: {fileID: 5723194938817120445}
   - component: {fileID: 7925247944474577897}
   - component: {fileID: 8437785861186320279}
-  - component: {fileID: 8437785861186320280}
   m_Layer: 0
   m_Name: Spirale
   m_TagString: Drag
@@ -70355,12 +70354,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5995114771538913042}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 154393b9431e6854b83771acea6f523b, type: 3}
+  m_Script: {fileID: 11500000, guid: 4252d6b95d0d9414ea046b2f61bf71d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraEn6: {fileID: 324508872}
-  Position: {fileID: 0}
-  Player: {fileID: 2144470013}
+  cubesPositions:
+  - {fileID: 815067807}
+  - {fileID: 1944325123}
+  - {fileID: 2104942446}
+  - {fileID: 210537510}
 --- !u!33 &7331044070879161739
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -70549,21 +70550,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.010000005, y: 0.0100000035, z: 0.010000005}
   m_Center: {x: 0.000000026077032, y: 0.00000011920929, z: -0.00000029802322}
---- !u!114 &8437785861186320280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4498486175992109709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 154393b9431e6854b83771acea6f523b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraEn6: {fileID: 324508872}
-  Position: {fileID: 815067806}
-  Player: {fileID: 2144470013}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
