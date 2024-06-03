@@ -14,7 +14,7 @@ public class Inventario : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
    public void InsertCubo(GameObject cubo){

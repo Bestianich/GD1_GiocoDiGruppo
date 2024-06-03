@@ -1,6 +1,6 @@
 /*
  Componente da dare al player per rendere possibile l'interazione con i cubi
- */
+*/
 
 using UnityEngine;
 

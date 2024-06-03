@@ -490,15 +490,13 @@ MonoBehaviour:
   cameraZoom: {fileID: 0}
   canvas: {fileID: 957111083}
   Player: {fileID: 2144470013}
---- !u!61 &6363260
-BoxCollider2D:
+--- !u!65 &6363260
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6363256}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -507,34 +505,12 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 17.451738, y: 21.820002}
-    newSize: {x: 17.451738, y: 21.820002}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 17.451738, y: 21.820002}
-  m_EdgeRadius: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 30.547558, y: 31.534275, z: 10.850099}
+  m_Center: {x: 0.63505405, y: 0.33126754, z: -5.324927}
 --- !u!1001 &8145034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17309,6 +17285,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d11e39a38b27d6f44886e0db4afd319b, type: 2}
+    - target: {fileID: 3398660202724471806, guid: 55857842395940243a77c973d86163c0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.99680454
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398660202724471806, guid: 55857842395940243a77c973d86163c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0256
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398660202724471806, guid: 55857842395940243a77c973d86163c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3463915975962634119, guid: 55857842395940243a77c973d86163c0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -17485,6 +17473,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d11e39a38b27d6f44886e0db4afd319b, type: 2}
+    - target: {fileID: 5303601020757282873, guid: 55857842395940243a77c973d86163c0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0316
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303601020757282873, guid: 55857842395940243a77c973d86163c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7213
+      objectReference: {fileID: 0}
     - target: {fileID: 5423434546565273995, guid: 55857842395940243a77c973d86163c0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -65852,6 +65848,7 @@ GameObject:
   - component: {fileID: 1907428772}
   - component: {fileID: 1907428774}
   - component: {fileID: 1907428773}
+  - component: {fileID: 1907428775}
   m_Layer: 0
   m_Name: Telecomando
   m_TagString: Untagged
@@ -65943,6 +65940,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1907428775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907428771}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 38.046673, y: 22.345325, z: 15.151729}
+  m_Center: {x: -0.4101623, y: 1.22958, z: -7.4759574}
 --- !u!1001 &1907952911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71969,7 +71987,7 @@ MonoBehaviour:
   _camera: {fileID: 891695796}
   cubeLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 4294967295
 --- !u!4 &572244015804855953 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 572244017260947765, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
