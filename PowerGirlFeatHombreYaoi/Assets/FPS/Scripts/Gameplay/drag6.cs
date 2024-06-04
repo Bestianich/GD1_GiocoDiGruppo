@@ -9,9 +9,9 @@ using Unity.VisualScripting;
 using UnityEngine.UIElements;
 using Image = UnityEngine.UI.Image;
 
-public class DraggableObject : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
+public class drag6 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {    
-    private Enigma7Controller controller;
+    private Enigma6Controller controller;
     public Vector3 worldPosition;
     public Camera cameraZoom;
     private Vector3 originalPos;     
@@ -19,7 +19,7 @@ public class DraggableObject : MonoBehaviour, IDragHandler, IBeginDragHandler, I
     // Start is called before the first frame update
     void Start()
     {
-        controller = FindObjectOfType<Enigma7Controller>();
+        controller = FindObjectOfType<Enigma6Controller>();
     }
 
     // Update is called once per frame
@@ -37,7 +37,7 @@ public class DraggableObject : MonoBehaviour, IDragHandler, IBeginDragHandler, I
             worldPosition = hitInfo.point;
 
         }
-        transform.position = new Vector3(worldPosition.x , originalPos.y , worldPosition.z);
+        transform.position = new Vector3(worldPosition.x , worldPosition.y , originalPos.z);
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -49,14 +49,16 @@ public class DraggableObject : MonoBehaviour, IDragHandler, IBeginDragHandler, I
     {
         for(int i = 0; i < controller.posizioni.Count; i++){
             Debug.Log(i + " " + Vector3.Distance(transform.position, controller.posizioni[i].transform.position));
-            if(Vector3.Distance( controller.posizioni[i].transform.position , transform.position) < 0.5f){
-                Debug.Log("AAAH" + controller.posizioni[i].name);
+            if(Vector3.Distance( controller.posizioni[i].transform.position , transform.position) < 0.1f){
+                Debug.Log("AAAH" + controller.posizioni[i].name);                                         
                 altroVaso = controller.posizioni[i].transform.GetChild(0).gameObject;
-                altroVaso.transform.position = transform.parent.position;
-                altroVaso.transform.SetParent(transform.parent);                
-                transform.position = new Vector3(controller.posizioni[i].transform.position.x, originalPos.y, controller.posizioni[i].transform.position.z -0.1f);
-                transform.SetParent(controller.posizioni[i].transform);
-                return;
+                if(!altroVaso.Equals(transform)){    
+                    altroVaso.transform.position = transform.parent.position;
+                    altroVaso.transform.SetParent(transform.parent);                
+                    transform.position = new Vector3(controller.posizioni[i].transform.position.x, originalPos.y, controller.posizioni[i].transform.position.z -0.1f);
+                    transform.SetParent(controller.posizioni[i].transform);
+                    return;
+                }   
             } 
         }        
         transform.position = originalPos;            

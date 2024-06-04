@@ -8,9 +8,10 @@ public class CubiInteracable : MonoBehaviour
  */
 {
     [SerializeField] private Enigma6Controller _manager;
+    public bool touched = false;
 
     public void Interact()
-    {
+    {        
         _manager.AddCube(this.gameObject);
     }
 }

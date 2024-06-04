@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.ProBuilder.MeshOperations;
 
 public class InteractableObj : MonoBehaviour , IInteractable
 {
@@ -15,7 +16,15 @@ public class InteractableObj : MonoBehaviour , IInteractable
     public GameObject Player;   
     public void Interact(){
         Debug.Log("Ciao");
-        if(!canvas.IsUnityNull()){
+        if(!cameraZoom.IsUnityNull() && !canvas.IsUnityNull()){
+            Debug.Log("Coglione");
+            canvas.gameObject.SetActive(true);
+            Player.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+            cameraZoom.gameObject.SetActive(true);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+
+        } else if(!canvas.IsUnityNull()){
             canvas.gameObject.SetActive(true);
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
@@ -27,7 +36,7 @@ public class InteractableObj : MonoBehaviour , IInteractable
             Player.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             cameraZoom.gameObject.SetActive(true);
             Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            Cursor.lockState = CursorLockMode.None;      
         } else if(pickup){
             Player.GetComponent<Inventario>().InsertCubo(this.gameObject);
         }
