@@ -18,39 +18,32 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (TimerOn)
-        {
-            if(TimeLeft > 0)
-            {
-                TimeLeft -= Time.deltaTime;
-                updateTimer(TimeLeft);
-            }
-            else 
-            {
-                Debug.Log("Time is Up");
-                TimeLeft = 0;
-                TimerOn = false;
+        updateTimer();
+    }
+
+    IEnumerator countDown(){
+        if(!TimerOn){
+            TimerOn = true;
+            while(TimeLeft > 0){
+                Debug.Log("CiaoSTREf " + TimeLeft );
+                yield return new WaitForSeconds(1.0f);
+                TimeLeft--;
             }
         }
     }
+    void updateTimer()
+    {        
 
-       /*void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.name.Equals("Player"))
-        {
-            TimerOn = true;
-        }
-    }*/
-    
-    void updateTimer(float currentTime)
-    {
-        currentTime += 1;
+        float minutes = Mathf.FloorToInt(TimeLeft / 60);
+        float seconds = Mathf.FloorToInt(TimeLeft % 60);
 
-        float minutes = Mathf.FloorToInt(currentTime / 60);
-        float seconds = Mathf.FloorToInt(currentTime % 60);
+        TimerText.text = minutes.ToString ("00") + ":" + seconds.ToString ("00");
 
-        TimerText.text = string.Format("{0:00} : {0:00}", minutes, seconds);
+    }
 
+
+    public void startTimer(){                
+        StartCoroutine(countDown());
     }
 
     private void TogliTempo()

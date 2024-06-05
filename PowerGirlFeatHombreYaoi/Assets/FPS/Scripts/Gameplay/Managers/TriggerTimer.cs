@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class TriggerTimer : MonoBehaviour
@@ -9,7 +10,8 @@ public class TriggerTimer : MonoBehaviour
     {
         if (other.gameObject.name.Equals("Player"))
         {
-            timer.TimerOn = true;
+            Debug.Log("STEFA");
+            timer.startTimer();
         }
     }
 }
