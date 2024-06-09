@@ -54,7 +54,13 @@ public class InteractableObj : MonoBehaviour , IInteractable
     }
 
     public void EscCanvas(){
-        if(Input.GetButtonDown("Cancel") && !canvas.IsUnityNull()){
+         if(Input.GetButtonDown("Cancel") && !canvas.IsUnityNull() && !cameraZoom.IsUnityNull()){
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            canvas.gameObject.SetActive(false);             
+            Player.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            cameraZoom.gameObject.SetActive(false);
+        } else if(Input.GetButtonDown("Cancel") && !canvas.IsUnityNull()){
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
             canvas.gameObject.SetActive(false);               

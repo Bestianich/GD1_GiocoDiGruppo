@@ -18,6 +18,7 @@ public class enigma45 : MonoBehaviour
     public List<UnityEngine.UI.Image> inseriti;
     public TextMeshProUGUI testo;
     public GameObject porta;
+    public Timer timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +38,7 @@ public class enigma45 : MonoBehaviour
                     testo.text = "";
                     gameObject.transform.GetChild(2).gameObject.SetActive(true);
                     inseriti.Clear();*/
+                    timer.TogliTempo();
                     StartCoroutine(Errore());
                     return;
                 }

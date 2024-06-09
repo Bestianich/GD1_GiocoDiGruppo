@@ -16,7 +16,9 @@ public class Enigma7Controller : MonoBehaviour, IPointerClickHandler, IDragHandl
     public Vector3 worldPosition;
     public Camera cameraZoom;
     public GameObject button;
+    public GameObject Lastra;
     private Vector3 originalPos;
+    public Timer timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,9 +47,11 @@ public class Enigma7Controller : MonoBehaviour, IPointerClickHandler, IDragHandl
         Debug.Log("SMigler");
         for(int i = 0; i < soluzione.Count; i++){            
             if(!soluzione[i].Equals(posizioni[i].transform.GetChild(0).gameObject)){
+                timer.TogliTempo();
                 return;
             }
         }
+        Lastra.SetActive(true);
         Debug.Log("Hai vinto!!");
     }
 

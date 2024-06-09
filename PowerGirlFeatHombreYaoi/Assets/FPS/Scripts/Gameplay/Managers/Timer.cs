@@ -46,7 +46,7 @@ public class Timer : MonoBehaviour
         StartCoroutine(countDown());
     }
 
-    private void TogliTempo()
+    public void TogliTempo()
     {
         TimeLeft -=30f;
     }
