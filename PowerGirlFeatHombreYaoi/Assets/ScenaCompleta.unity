@@ -18276,6 +18276,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2278198950457263268, guid: 645e4e5de731c7a4aa25ea3e587580af, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1862466806}
+    - targetCorrespondingSourceObject: {fileID: 2278198950457263268, guid: 645e4e5de731c7a4aa25ea3e587580af, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1862466807}
     - targetCorrespondingSourceObject: {fileID: 2278198950457263270, guid: 645e4e5de731c7a4aa25ea3e587580af, type: 3}
       insertIndex: -1
       addedObject: {fileID: 425094305}
@@ -18715,6 +18718,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a161844fc76bd1459d4fea3bb877d60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soluzione: []
+  posizioni: []
+  worldPosition: {x: 0, y: 0, z: 0}
+  cameraZoom: {fileID: 0}
+  Lastra: {fileID: 0}
+  timer: {fileID: 0}
+  button: {fileID: 0}
 --- !u!1001 &430425558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84141,6 +84151,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.0337431, y: 3.1584592, z: 1.3250902}
   m_Center: {x: -0.4997859, y: 1.0792323, z: -0.4177261}
+--- !u!114 &1862466807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862466805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a161844fc76bd1459d4fea3bb877d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soluzione: []
+  posizioni: []
+  worldPosition: {x: 0, y: 0, z: 0}
+  cameraZoom: {fileID: 0}
+  Lastra: {fileID: 0}
+  timer: {fileID: 197245459}
+  button: {fileID: 0}
 --- !u!1001 &1862480312
 PrefabInstance:
   m_ObjectHideFlags: 0
