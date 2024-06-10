@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CubiInteracable : MonoBehaviour
-/*
- Componente da dare ai cubi per farli aggiungere all'enigma
- */
+public class lastreInteractable : MonoBehaviour
 {
-    [SerializeField] private Enigma6Controller _manager;
+    // Start is called before the first frame update
+    [SerializeField] private enigmaFinale _manager;
     public bool touched = false;
     public GameObject Player;
 

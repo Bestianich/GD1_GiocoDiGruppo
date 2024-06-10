@@ -9,7 +9,8 @@ public class Enigma3Controller : MonoBehaviour
     public Transform minuteHand;
     public int ore;
     public int minuti;    
-    public AudioSource audioSource;
+    public GameObject lastra;
+    public GameObject player;
     private bool vinto;
 
     void Start()
@@ -28,9 +29,10 @@ public class Enigma3Controller : MonoBehaviour
 
     public void check(){
         if(ore == 12 && minuti == 12 && !vinto){
-            audioSource.Play();
+            player.GetComponents<AudioSource>()[2].Play();
             Debug.Log("Hai vinto!");
             vinto = true;
+            lastra.gameObject.SetActive(true);
         }
     }
 

@@ -46,8 +46,15 @@ public class Timer : MonoBehaviour
         StartCoroutine(countDown());
     }
 
+    IEnumerator coloraScritta(){
+        TimerText.color = Color.red;
+        yield return new WaitForSeconds(1f);
+        TimerText.color = Color.white;
+    }
+
     public void TogliTempo()
     {
+        StartCoroutine(coloraScritta());
         TimeLeft -=30f;
     }
 

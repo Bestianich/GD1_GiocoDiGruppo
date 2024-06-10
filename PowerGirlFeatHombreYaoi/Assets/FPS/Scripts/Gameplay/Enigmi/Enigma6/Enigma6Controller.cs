@@ -44,6 +44,7 @@ public class Enigma6Controller : MonoBehaviour
         for(int i = 0; i  < posizioni.Count; i++){
             posizioni[i].SetActive(false);
         }
+        Player.GetComponent<AudioSource>().Play();
         maniglia.SetActive(false);
         transform.Rotate(0,90,0);
         gameObject.GetComponent<Collider>().gameObject.SetActive(false);
@@ -51,7 +52,7 @@ public class Enigma6Controller : MonoBehaviour
         Player.gameObject.transform.GetChild(0).gameObject.SetActive(true);
         cameraZoom.gameObject.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.visible = false;        
         Debug.Log("Hai vinto");
     }
 }

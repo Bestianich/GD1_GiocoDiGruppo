@@ -8,71 +8,54 @@ using UnityEditor.UI;
 using Unity.VisualScripting;
 using UnityEngine.UIElements;
 using Image = UnityEngine.UI.Image;
-public class enigmaFinale : MonoBehaviour, IPointerClickHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
+public class enigmaFinale : MonoBehaviour
 {
+    private List<GameObject> _cubes = new();
+
+    //public Transform[] cubesPositions;
     public List<GameObject> soluzione;
     public List<GameObject> posizioni;
-    public Vector3 worldPosition;
+    public GameObject porta;
+    public GameObject Player;
     public Camera cameraZoom;
-    public GameObject Lastra;
-    private Vector3 originalPos;
-    public Timer timer;
-    public GameObject button;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject maniglia;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    public void OnPointerClick(PointerEventData eventData)
+    private int positionsIndex = 0;
+
+
+
+    public void AddCube(GameObject cube)
     {        
-        Debug.Log(eventData);
-        GameObject obj = eventData.pointerCurrentRaycast.gameObject;
-        if(obj.Equals(button)){
-            OnButtonPress();
+        if(!cube.GetComponent<CubiInteracable>().touched){
+            _cubes.Add(cube);
+            GameObject posizione = posizioni[positionsIndex].gameObject;                        
+            cube.transform.SetParent(posizione.transform);
+            cube.transform.position = posizione.transform.position;
+            //cube.transform.position = posizioni[positionsIndex].transform.position;
+            positionsIndex++;
+            cube.GetComponent<CubiInteracable>().touched = true;
         }
-        Debug.Log("Clicked: " + gameObject.name);        
-        //gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
+    }
 
-    }    
-
-    public void OnButtonPress(){
-        Debug.Log("SMigler");
-        for(int i = 0; i < soluzione.Count; i++){            
-            if(!soluzione[i].Equals(posizioni[i].transform.GetChild(0).gameObject)){
-                timer.TogliTempo();
+    public void checkCombinazione(){
+        for(int i = 0; i  < soluzione.Count; i++){
+            if(!soluzione[i].name.Equals(posizioni[i].transform.GetChild(0).name)){
+                Debug.Log(posizioni[i].transform.GetChild(0).name);
                 return;
             }
         }
-        Lastra.SetActive(true);
-        Debug.Log("Hai vinto!!");
-    }
-
-
-    public void OnDrag(PointerEventData eventData)
-    {
-       /* var mousePos = Input.mousePosition;
-        Ray ray = cameraZoom.ScreenPointToRay(mousePos);
-        if(Physics.Raycast(ray, out var hitInfo)){
-            worldPosition = hitInfo.point;
-
+        for(int i = 0; i  < posizioni.Count; i++){
+            posizioni[i].SetActive(false);
         }
-        transform.position = new Vector3(worldPosition.x , originalPos.y , worldPosition.z);
-     */
+        Player.GetComponent<AudioSource>().Play();
+        maniglia.SetActive(false);
+        transform.Rotate(0,90,0);
+        gameObject.GetComponent<Collider>().gameObject.SetActive(false);
+        porta.transform.Rotate(0,90,0);
+        Player.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+        cameraZoom.gameObject.SetActive(false);
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        UnityEngine.Cursor.visible = false;        
+        Debug.Log("Hai vinto");
     }
-
-    public void OnBeginDrag(PointerEventData eventData)
-    {        
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        //transform.position = originalPos;
-    }
-
 }

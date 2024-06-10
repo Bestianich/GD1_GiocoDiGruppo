@@ -32,6 +32,7 @@ public class InteractableObj : MonoBehaviour , IInteractable
         } else if (door) {
             gameObject.transform.Rotate(0 , 90 , 0);
             door = false;
+            Player.GetComponents<AudioSource>()[0].Play();
         } else if (!cameraZoom.IsUnityNull()){
             Player.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             cameraZoom.gameObject.SetActive(true);

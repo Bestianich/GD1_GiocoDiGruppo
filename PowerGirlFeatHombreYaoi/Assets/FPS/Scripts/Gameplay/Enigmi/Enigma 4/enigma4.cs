@@ -5,6 +5,7 @@ using UnityEngine;
 public class enigma4 : MonoBehaviour
 {       
     public GameObject tv;
+    public AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class enigma4 : MonoBehaviour
 
     public void cambiaCanale(GameObject canale){
         tv.GetComponent<MeshRenderer>().material = canale.GetComponent<MeshRenderer>().material;
+        audio.Play();
         tv.gameObject.SetActive(true);
     }
 }

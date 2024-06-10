@@ -42,7 +42,7 @@ public class enigma45 : MonoBehaviour
                     StartCoroutine(Errore());
                     return;
                 }
-            }
+            }            
             StartCoroutine(Giusto());
             /*
             gameObject.transform.GetChild(4).gameObject.SetActive(false);
@@ -54,6 +54,7 @@ public class enigma45 : MonoBehaviour
     }
 
     IEnumerator Errore(){
+        GetComponents<AudioSource>()[1].Play();
         gameObject.transform.GetChild(4).gameObject.SetActive(false);
         gameObject.transform.GetChild(2).gameObject.SetActive(true);
         inseriti.Clear();
@@ -63,7 +64,8 @@ public class enigma45 : MonoBehaviour
         gameObject.transform.GetChild(2).gameObject.SetActive(false);
     }
 
-    IEnumerator Giusto(){
+    IEnumerator Giusto(){       
+        GetComponents<AudioSource>()[2].Play();        
         gameObject.transform.GetChild(4).gameObject.SetActive(false);
         gameObject.transform.GetChild(3).gameObject.SetActive(true);
         yield return new WaitForSeconds(1f);
@@ -75,6 +77,7 @@ public class enigma45 : MonoBehaviour
 
     }
     public void insertImage(GameObject image){
+        GetComponents<AudioSource>()[0].Play();
         testo.text += "#";
         inseriti.Add(image.GetComponent<UnityEngine.UI.Image>());
     }
