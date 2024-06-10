@@ -57,7 +57,7 @@ public class dragEnigmaFinale : MonoBehaviour, IDragHandler, IBeginDragHandler, 
                 if(!altroVaso.Equals(transform)){    
                     altroVaso.transform.position = transform.parent.position;
                     altroVaso.transform.SetParent(transform.parent);                
-                    transform.position = new Vector3(controller.posizioni[i].transform.position.x, originalPos.y, controller.posizioni[i].transform.position.z);
+                    transform.position = new Vector3(controller.posizioni[i].transform.position.x, controller.posizioni[i].transform.position.y, controller.posizioni[i].transform.position.z);
                     transform.SetParent(controller.posizioni[i].transform);
                     return;
                 }   

@@ -2,6 +2,7 @@
  Componente da dare all'enigma per popolare le posizioni vuote
  */
 
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -34,6 +35,7 @@ public class Enigma6Controller : MonoBehaviour
         }
     }
 
+    
     public void checkCombinazione(){
         for(int i = 0; i  < soluzione.Count; i++){
             if(!soluzione[i].name.Equals(posizioni[i].transform.GetChild(0).name)){
@@ -46,7 +48,7 @@ public class Enigma6Controller : MonoBehaviour
         }
         Player.GetComponent<AudioSource>().Play();
         maniglia.SetActive(false);
-        transform.Rotate(0,90,0);
+        //transform.Rotate(0,90,0);
         gameObject.GetComponent<Collider>().gameObject.SetActive(false);
         porta.transform.Rotate(0,90,0);
         Player.gameObject.transform.GetChild(0).gameObject.SetActive(true);
