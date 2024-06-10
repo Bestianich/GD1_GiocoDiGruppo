@@ -7,6 +7,7 @@ public class Timer : MonoBehaviour
 {
     public float TimeLeft;
     public bool TimerOn = false;
+    public bool timeStop = false;
     public Text TimerText;
     
     // Start is called before the first frame update
@@ -24,7 +25,7 @@ public class Timer : MonoBehaviour
     IEnumerator countDown(){
         if(!TimerOn){
             TimerOn = true;
-            while(TimeLeft > 0){
+            while(TimeLeft > 0 && !timeStop){                                
                 //Debug.Log("CiaoSTREf " + TimeLeft );
                 yield return new WaitForSeconds(1.0f);
                 TimeLeft--;
