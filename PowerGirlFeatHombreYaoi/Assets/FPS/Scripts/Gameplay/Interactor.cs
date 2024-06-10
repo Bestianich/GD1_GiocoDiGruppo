@@ -28,7 +28,7 @@ public class Interactor : MonoBehaviour
                     interactObj.Interact();
                 }
             }
-        }    
+        } 
     }
     
 }

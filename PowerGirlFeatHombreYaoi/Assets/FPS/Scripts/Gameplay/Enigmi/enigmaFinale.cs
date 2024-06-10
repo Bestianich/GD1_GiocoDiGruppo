@@ -17,8 +17,7 @@ public class enigmaFinale : MonoBehaviour
     public List<GameObject> posizioni;
     public GameObject porta;
     public GameObject Player;
-    public Camera cameraZoom;
-    public GameObject maniglia;
+    public Camera cameraZoom;    
 
     private int positionsIndex = 0;
 
@@ -26,14 +25,15 @@ public class enigmaFinale : MonoBehaviour
 
     public void AddCube(GameObject cube)
     {        
-        if(!cube.GetComponent<CubiInteracable>().touched){
+        if(!cube.GetComponent<lastreInteractable>().touched){
             _cubes.Add(cube);
             GameObject posizione = posizioni[positionsIndex].gameObject;                        
             cube.transform.SetParent(posizione.transform);
             cube.transform.position = posizione.transform.position;
+            cube.transform.Rotate(90,0,0);
             //cube.transform.position = posizioni[positionsIndex].transform.position;
             positionsIndex++;
-            cube.GetComponent<CubiInteracable>().touched = true;
+            cube.GetComponent<lastreInteractable>().touched = true;
         }
     }
 
@@ -47,11 +47,10 @@ public class enigmaFinale : MonoBehaviour
         for(int i = 0; i  < posizioni.Count; i++){
             posizioni[i].SetActive(false);
         }
-        Player.GetComponent<AudioSource>().Play();
-        maniglia.SetActive(false);
+        Player.GetComponent<AudioSource>().Play();        
         transform.Rotate(0,90,0);
         gameObject.GetComponent<Collider>().gameObject.SetActive(false);
-        porta.transform.Rotate(0,90,0);
+        //porta.transform.Rotate(0,90,0);
         Player.gameObject.transform.GetChild(0).gameObject.SetActive(true);
         cameraZoom.gameObject.SetActive(false);
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;

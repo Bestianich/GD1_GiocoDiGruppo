@@ -10,7 +10,7 @@ public class lastreInteractable : MonoBehaviour
     public GameObject Player;
 
     public void Interact()
-    {        
+    {                
         Player.GetComponents<AudioSource>()[1].Play();
         _manager.AddCube(this.gameObject);
     }

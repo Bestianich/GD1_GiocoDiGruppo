@@ -25,7 +25,7 @@ public class Timer : MonoBehaviour
         if(!TimerOn){
             TimerOn = true;
             while(TimeLeft > 0){
-                Debug.Log("CiaoSTREf " + TimeLeft );
+                //Debug.Log("CiaoSTREf " + TimeLeft );
                 yield return new WaitForSeconds(1.0f);
                 TimeLeft--;
             }
