@@ -2,12 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using UnityEngine;
-using Microsoft.Unity.VisualStudio.Editor;
-using UnityEngine.UI;
-using UnityEditor.UI;
-using Unity.VisualScripting;
-using UnityEngine.UIElements;
-using Image = UnityEngine.UI.Image;
 
 public class dragEnigmaFinale : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {    
