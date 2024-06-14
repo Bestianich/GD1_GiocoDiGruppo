@@ -37,6 +37,7 @@ public class Enigma6Controller : MonoBehaviour
 
     
     public void checkCombinazione(){
+        Debug.Log("SIETNRs");
         for(int i = 0; i  < soluzione.Count; i++){
             if(!soluzione[i].name.Equals(posizioni[i].transform.GetChild(0).name)){
                 Debug.Log(posizioni[i].transform.GetChild(0).name);

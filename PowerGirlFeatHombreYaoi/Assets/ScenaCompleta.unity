@@ -7753,8 +7753,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0782825, y: 0.2685451, z: 0.15343443}
-  m_Center: {x: -0.03214597, y: -0.36572593, z: -0.42328343}
+  m_Size: {x: 1.0782825, y: 0.2685451, z: 0.21107179}
+  m_Center: {x: -0.03214599, y: -0.36572593, z: -0.3944649}
 --- !u!114 &156107438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12650,7 +12650,7 @@ GameObject:
   - component: {fileID: 263046475}
   - component: {fileID: 263046476}
   m_Layer: 0
-  m_Name: LastraEnigma2
+  m_Name: LastraEpica
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33219,7 +33219,7 @@ Transform:
   m_GameObject: {fileID: 688095493}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0382, y: -0.0021, z: 0.0222}
+  m_LocalPosition: {x: 0.0381, y: -0.0042, z: 0.0222}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -56369,7 +56369,7 @@ GameObject:
   - component: {fileID: 1185197091}
   - component: {fileID: 1185197095}
   m_Layer: 0
-  m_Name: LastraAlGiro
+  m_Name: LastraBiografia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61062,7 +61062,7 @@ GameObject:
   - component: {fileID: 1291252540}
   - component: {fileID: 1291252541}
   m_Layer: 0
-  m_Name: LastraEnigma3
+  m_Name: LastraRomanzi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66507,7 +66507,7 @@ GameObject:
   - component: {fileID: 1404739809}
   - component: {fileID: 1404739810}
   m_Layer: 0
-  m_Name: LastraEnigma45
+  m_Name: LastraGiallo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75652,7 +75652,7 @@ GameObject:
   - component: {fileID: 1612800080}
   - component: {fileID: 1612800081}
   m_Layer: 0
-  m_Name: LastraEnigma7
+  m_Name: LastraThriller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77266,6 +77266,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1265948307658516293, guid: 4a750097d33b7f647bb712ac1cd84146, type: 3}
   m_PrefabInstance: {fileID: 1632894022}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1633248990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1633248992}
+  - component: {fileID: 1633248991}
+  m_Layer: 0
+  m_Name: finestre_1_colore-removebg-preview
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1633248991
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633248990}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 2ca8525689274d248a327b6be32798ff, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.81, y: 2.57}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1633248992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633248990}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0.7071068, z: -0, w: 0}
+  m_LocalPosition: {x: -11.26, y: 1.71, z: -23.468}
+  m_LocalScale: {x: 1, y: 1, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: -90}
 --- !u!1 &1634444234
 GameObject:
   m_ObjectHideFlags: 0
@@ -91057,6 +91141,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7184765994222712880, guid: 8932c73a4a891bc4d8505eddc7052d2f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -99939,10 +100027,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soluzione:
-  - {fileID: 4498486175992109709}
-  - {fileID: 6830869177024983928}
   - {fileID: 4230880103576182226}
+  - {fileID: 6830869177024983928}
   - {fileID: 2224783036892336160}
+  - {fileID: 4498486175992109709}
   posizioni:
   - {fileID: 1407533447}
   - {fileID: 109617810}
@@ -100099,9 +100187,29 @@ PrefabInstance:
       propertyPath: Lastra
       value: 
       objectReference: {fileID: 1612800075}
+    - target: {fileID: 5588309012799003348, guid: 86227eeda93c1fd4a84014ac10f1d13c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.155
+      objectReference: {fileID: 0}
     - target: {fileID: 5770940544327584502, guid: 86227eeda93c1fd4a84014ac10f1d13c, type: 3}
       propertyPath: m_Name
       value: Enigma7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460671166437426113, guid: 86227eeda93c1fd4a84014ac10f1d13c, type: 3}
+      propertyPath: m_Size.y
+      value: 0.18456322
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460671166437426113, guid: 86227eeda93c1fd4a84014ac10f1d13c, type: 3}
+      propertyPath: m_Center.y
+      value: 0.09893271
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611688349953378242, guid: 86227eeda93c1fd4a84014ac10f1d13c, type: 3}
+      propertyPath: m_Size.y
+      value: 0.29707873
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611688349953378242, guid: 86227eeda93c1fd4a84014ac10f1d13c, type: 3}
+      propertyPath: m_Center.y
+      value: 0.17475104
       objectReference: {fileID: 0}
     - target: {fileID: 8268783740222470995, guid: 86227eeda93c1fd4a84014ac10f1d13c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -100278,3 +100386,4 @@ SceneRoots:
   - {fileID: 1909054219}
   - {fileID: 330759437}
   - {fileID: 75708523}
+  - {fileID: 1633248992}
